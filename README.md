@@ -23,8 +23,6 @@ Gn	1	1	Au commencement	Pr 8:22-24|Pr 16:4|Mc 13:19|Jn 1:1-3|Hé 1:10|1 Jn 1:1
 Gn	1	1	Dieu créa	Ps 33:6|Ps 136:5|Ac 17:24
 ```
 
-A single reference may contain multiple book-chapter groups separated by `; ` (semicolon-space), e.g. `Mt 13:10-17; Lc 8:9-10`. This is rare.
-
 ## Parser
 
 `parse_crossreferences.py` is a standalone Python script (no dependencies) that parses the TSV files into structured data:
