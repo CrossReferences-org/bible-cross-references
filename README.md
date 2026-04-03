@@ -44,7 +44,7 @@ for entry in parse_file('s21/crossreferences_s21.tsv'):
 | Code | Translation | Language | Status | License |
 |---|---|---|---|---|
 | KJV | King James Version | English | Complete | Public domain |
-| BSB | Berean Standard Bible | English | In progress | CC0 |
+| BSB | Berean Standard Bible | English | In progress | Public domain |
 | S21 | Segond 21 | French | Complete | Used with permission from Société Biblique de Genève |
 | AOV | Afrikaanse Ou Vertaling | Afrikaans | In progress | Public domain |
 
