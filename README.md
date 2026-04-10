@@ -2,7 +2,7 @@
 
 Phrase-level Bible cross-references exported from [CrossReferences.org](https://crossreferences.org).
 
-This dataset restructures the Treasury of Scripture Knowledge (TSK) — originally anchored to KJV phrasing — so that each translation has its own anchor phrases mapped to its own text and versification. The goal is to make these cross-references usable without requiring the reader to mentally translate from the KJV.
+This dataset restructures the Treasury of Scripture Knowledge (originally anchored to KJV phrasing) so that each translation has its own anchor phrases mapped to its own text and versification. The goal is to make these cross-references usable without requiring the reader to mentally translate from the KJV.
 
 ## Format
 
@@ -46,7 +46,7 @@ for entry in parse_file('s21/crossreferences_s21.tsv'):
 | S21 | Segond 21 | French | Complete | Used with permission from Société Biblique de Genève |
 | AOV | Afrikaanse Ou Vertaling | Afrikaans | In progress | Public domain |
 
-**Note on S21:** The Segond 21 Bible text is © Société Biblique de Genève. This dataset contains only the anchor phrases (short fragments used to locate cross-references within a verse), not the full Bible text. Use of S21 anchor phrases is covered by agreement with the publisher.
+**Note on S21:** The Segond 21 Bible text is © Société Biblique de Genève. This dataset contains only the anchor phrases (short fragments used to locate cross-references within a verse), not the full Bible text.
 
 ## License
 
