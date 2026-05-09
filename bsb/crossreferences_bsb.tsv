@@ -494,7 +494,7 @@ Gen	12	1	said	Gen 11:31-32|Gen 15:7|Neh 9:7|Isa 41:9|Isa 51:2|Ezek 33:24
 Gen	12	1	Leave	Josh 24:2-3|Ps 45:10-11|Luke 14:26-33|Acts 7:2-6|2 Cor 6:17|Heb 11:8|Rev 18:4
 Gen	12	2	I will make you into a great nation, and I will bless you; I will make your name great, so that	Gen 13:16|Gen 15:5|Gen 17:5-6|Gen 18:18|Gen 22:17-18|Gen 24:35|Gen 26:4|Gen 27:29|Gen 28:3,14|Gen 35:11|Gen 46:3|Exod 1:7|Exod 32:10|Num 14:12|Num 24:9-10|Deut 26:5|2 Sam 7:9|1 Kgs 3:8-9|Mic 7:20|Rom 4:11|Gal 3:7
 Gen	12	2	you will	Gen 14:14-16|Gen 18:18|Gen 19:29|Gen 28:4|1 Kgs 1:47|Gal 3:14
-Gen	12	3	I will	Gen 27:29|Exod 23:22|Num 24:9|Matt 25:40,45
+Gen	12	3	I will bless those	Gen 27:29|Exod 23:22|Num 24:9|Matt 25:40,45
 Gen	12	3	through you	Gen 18:18|Gen 22:18|Gen 26:4|Gen 28:14|Gen 30:27,30|Gen 39:5|Ps 72:17|Acts 3:25-26|Rom 4:11|1 Cor 1:30|Gal 3:8,16,28|Eph 1:3|Col 3:11|Rev 7:9
 Gen	12	4	and Lot	Gen 11:27
 Gen	12	4	left	Heb 11:8
@@ -57039,7 +57039,6 @@ Rom	16	27	only wise God	Rom 11:33-34|Ps 147:5|Eph 1:7-8|Eph 3:10|Col 2:2-3|Jude 
 2 Cor	6	12		Eccl 6:9|Job 36:16|Prov 4:12|Mic 2:7
 2 Cor	6	12		Phil 1:8|1 John 3:17
 2 Cor	6	13		1 Cor 4:14-15|Gal 4:19|1 Thess 2:11|Heb 12:5-6|1 John 2:1,12-14|1 John 3:7,18|3 John 1:4
-2 Cor	6	13		2 Kgs 13:14-19|Ps 81:10|Matt 9:28-29|Matt 17:19-21|Mark 6:4-6|Mark 11:24|Jas 1:6-7|1 John 5:14-15
 2 Cor	6	14		Exod 34:16|Lev 19:19|Deut 7:2-3|Deut 22:9-11|Ezra 9:1-2,11-12|Ezra 10:19|Neh 13:1-3,23-26|Ps 106:35|Prov 22:24|Mal 2:11,15|1 Cor 5:9|1 Cor 7:39|1 Cor 15:33|Jas 4:4
 2 Cor	6	14		1 Sam 5:2-3|1 Kgs 18:21|2 Chr 19:2|Ps 16:3|Ps 26:4-5,9-10|Ps 44:20-21|Ps 101:3-5|Ps 119:63|Ps 139:21-22|Prov 29:27|John 7:7|John 15:18-19|Acts 4:23|1 Cor 10:21|Eph 5:6-11|1 John 3:12-14
 2 Cor	6	14		Prov 8:18-19|Rom 13:12-14|Eph 4:17-20|Eph 5:8-14|Phil 2:15|1 Thess 5:4-8|1 Pet 2:9-10|1 Pet 4:2-4|1 John 1:5-7
@@ -57873,6 +57872,7 @@ Eph	1	18	eyes of your heart	Eph 5:8|Ps 119:18|Isa 6:10|Isa 29:10,18|Isa 32:3|Isa
 Eph	1	18	hope	Eph 2:12|Eph 4:4|Rom 5:4-5|Rom 8:24-25|Gal 5:5|Col 1:5,23|1 Thess 5:8|2 Thess 2:16|Titus 2:13|Titus 3:7|1 Pet 1:3|1 John 3:1-3
 Eph	1	18	His calling	Eph 4:1|Rom 8:28-30|Phil 3:14|Col 3:15|1 Thess 2:12|2 Thess 1:11|1 Tim 6:12|1 Pet 3:9|1 Pet 5:10
 Eph	1	18	riches	Eph 1:7,11|Eph 3:8,16
+Eph	1	18	His glorious inheritance	Exod 19:5|Deut 32:9|Ps 33:12|Ps 135:4|1 Pet 2:9|1 Kgs 8:53|Ps 106:5|Ps 28:9|Titus 2:14|Deut 26:18-19
 Eph	1	19	surpassing greatness	Eph 2:10|Eph 3:7,20|Ps 110:2-3|Isa 53:1|John 3:6|Acts 26:18|Rom 1:16|2 Cor 4:7|2 Cor 5:17|Phil 2:13|Col 1:29|Col 2:12|1 Thess 1:5|2 Thess 1:11|Jas 1:18
 Eph	1	20	exerted	Eph 2:5-6|Rom 6:5-11|Phil 3:10|1 Pet 1:3
 Eph	1	20	when He raised Him from the dead	Ps 16:9-11|John 10:18,30|Acts 2:24-33|Acts 4:10|Acts 10:40|Acts 26:8|Rom 1:4|Heb 13:20
@@ -59709,8 +59709,7 @@ Col	4	18	Grace be with you	Rom 16:20,24|2 Cor 13:14|1 Tim 6:21|2 Tim 4:22|Heb 13
 2 Tim	1	4		2 Tim 4:9,21|Rom 1:11|Rom 15:30-32|Phil 1:8|Phil 2:26|1 Thess 2:17-20|1 Thess 3:1
 2 Tim	1	4		Acts 20:19,31,37-38|Rev 7:17|Rev 21:4
 2 Tim	1	4		Ps 126:5|Isa 61:3|Jer 31:13|John 16:22,24|1 John 1:4
-2 Tim	1	5		Ps 77:6
-2 Tim	1	5		Ps 17:1|Ps 18:44|Ps 66:3|Ps 81:15|Jer 3:10|John 1:47|2 Cor 6:6|1 Tim 1:5|1 Tim 4:6|1 Pet 1:22
+2 Tim	1	5		Ps 17:1|Jer 3:10|John 1:47|2 Cor 6:6|1 Tim 1:5|1 Tim 4:6|1 Pet 1:22
 2 Tim	1	5		Ps 22:10|Ps 86:16|Ps 116:16|Acts 16:1
 2 Tim	1	5		2 Tim 1:12|Acts 26:26|Rom 4:21|Rom 8:38|Rom 14:5,14|Rom 15:14|Heb 6:9|Heb 11:13
 2 Tim	1	6		2 Tim 2:14|Isa 43:26|1 Tim 4:6|2 Pet 1:12|2 Pet 3:1|Jude 1:5
@@ -63157,8 +63156,8 @@ Rev	14	4	follow the Lamb	Rev 3:4|Rev 7:15-17|Rev 17:14|Matt 8:19|Luke 9:57-62|Jo
 Rev	14	4	They have been	Rev 5:9
 Rev	14	4	redeemed from among men	Ps 74:2|Acts 20:28|1 Cor 6:20|Eph 1:14|1 Pet 2:9
 Rev	14	4	firstfruits	Jer 2:3|Amos 6:1|1 Cor 16:15|Jas 1:18
-Rev	14	5	in their mouths	Ps 32:2|Ps 34:13|Ps 55:11|Prov 8:8|Isa 53:9|Zeph 3:13|Matt 12:34|John 1:47|1 Pet 3:10
-Rev	14	5	blameless	Song 4:7|Dan 6:4|Hos 10:2|Luke 23:4|Eph 5:27|Col 1:22|Jude 1:24
+Rev	14	5	in their mouths	Ps 15:1-5|Ps 32:2|Ps 34:13|Ps 55:11|Prov 8:8|Isa 53:9|Zeph 3:13|Matt 12:34|John 1:47|1 Pet 3:10
+Rev	14	5	blameless	Ps 24:3-5|Song 4:7|Dan 6:4|Hos 10:2|Luke 23:4|Eph 5:27|Col 1:22|Jude 1:24
 Rev	14	6	another angel	Rev 8:13|Isa 6:2,6-7|Ezek 1:14|Dan 9:21
 Rev	14	6	overhead	Gen 1:6
 Rev	14	6	eternal	2 Sam 23:5|Ps 119:142|Ps 139:24|Ps 145:13|Isa 40:8|Isa 45:17|Isa 51:6,8|Eph 3:9-11|2 Thess 2:16|Titus 1:1-3|Heb 13:20
