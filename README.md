@@ -4,6 +4,9 @@ Phrase-level Bible cross-references exported from [CrossReferences.org](https://
 
 This dataset restructures the Treasury of Scripture Knowledge (originally anchored to KJV phrasing) so that each translation has its own anchor phrases mapped to its own text and versification. The goal is to make these cross-references usable without requiring the reader to mentally translate from the KJV.
 
+## Important Note
+This is a work in progress. The mapping to new translations are not 100% complete. [See Report](general_report.md) for details regarding what still remains to be done.
+
 ## Format
 
 Each translation has a single TSV file with five columns:
