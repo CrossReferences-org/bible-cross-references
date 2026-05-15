@@ -8,7 +8,9 @@ This dataset is derived from the Treasury of Scripture Knowledge (originally anc
 This is a work in progress. The mapping to new translations are not 100% complete, and a second pass remains to be done to improve quality. [See Report](general_report.md) for details.
 
 ## On Curation
-The reference set is not a verbatim copy of TSK. References are added, split, merged, or removed where doing so serves the reader. Such changes are deliberate and conservative (currently well under 1% of the set) and are expected to grow modestly as the project matures.
+The reference set is not a verbatim copy of TSK. References are added, split, merged, or removed where doing so serves the reader. Such changes are deliberate and conservative (currently well under 1% of the set) and are expected to grow modestly as the project matures.  
+
+The aim is to improve the connections themselves, not to pile more references onto every verse. References are removed when they make more sense in the other direction, or when they rest on KJV phrasing that doesn't carry into other translations. A shorter, sounder list serves the reader better — and following the references onward, from verse to verse, recovers the wider picture when it is wanted.
 
 ## Format
 
