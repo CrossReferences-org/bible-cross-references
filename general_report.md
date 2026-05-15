@@ -1,8 +1,8 @@
-Report Generated on: 2026-05-15 18:55
+Report Generated on: 2026-05-15 18:57
 
 ## Empty Anchors:
 - S21:     195  ( 0.306% )  
-- AOV:    3649  ( 5.731% )  
+- AOV:    3599  ( 5.652% )  
 - BSB:   37706  (59.215% )  
 
 ## Anchors that do not match the verse exactly (Whole Word):  
