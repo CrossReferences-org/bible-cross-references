@@ -2,10 +2,13 @@
 
 Phrase-level Bible cross-references exported from [CrossReferences.org](https://crossreferences.org).
 
-This dataset restructures the Treasury of Scripture Knowledge (originally anchored to KJV phrasing) so that each translation has its own anchor phrases mapped to its own text and versification. The goal is to make these cross-references usable without requiring the reader to mentally translate from the KJV.
+This dataset is derived from the Treasury of Scripture Knowledge (originally anchored to KJV phrasing) and restructures it so that each translation has its own anchor phrases mapped to its own text and versification.
 
 ## Important Note
 This is a work in progress. The mapping to new translations are not 100% complete, and a second pass remains to be done to improve quality. [See Report](general_report.md) for details.
+
+## On Curation
+The reference set is not a verbatim copy of TSK. References are added, split, merged, or removed where doing so serves the reader. Such changes are deliberate and conservative (currently well under 1% of the set) and are expected to grow modestly as the project matures.
 
 ## Format
 
@@ -59,4 +62,4 @@ The parser script is licensed under the [MIT License](https://opensource.org/lic
 
 ## About
 
-This data is maintained as part of [CrossReferences.org](https://crossreferences.org), a free Bible study tool. The project exists to make the Treasury of Scripture Knowledge accessible across translations, languages, and devices.
+This data is maintained as part of [CrossReferences.org](https://crossreferences.org), a free Bible study tool. The Treasury of Scripture Knowledge is a remarkable work, and this project stands on it gratefully. The aim is to make it accessible across translations, languages, and devices, as well as to refine it where appropriate.
