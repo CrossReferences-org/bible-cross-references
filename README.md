@@ -50,9 +50,9 @@ for entry in parse_file('s21/crossreferences_s21.tsv'):
 | Code | Translation | Language | Status | License |
 |---|---|---|---|---|
 | KJV | King James Version | English | Complete | Public domain |
-| BSB | Berean Standard Bible | English | In progress | Public domain |
-| S21 | Segond 21 | French | Complete | Used with permission from Société Biblique de Genève |
-| AOV | Afrikaanse Ou Vertaling | Afrikaans | In progress | Public domain |
+| BSB | Berean Standard Bible | English | Pass 1 In progress | Public domain |
+| S21 | Segond 21 | French | Pass 1 Complete | Used with permission from Société Biblique de Genève |
+| AOV | Afrikaanse Ou Vertaling | Afrikaans | Pass 1 Complete | Public domain |
 
 **Note on S21:** The Segond 21 Bible text is © Société Biblique de Genève. This dataset contains only the anchor phrases (short fragments used to locate cross-references within a verse), not the full Bible text.
 
