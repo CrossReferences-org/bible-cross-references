@@ -5,12 +5,12 @@ Phrase-level Bible cross-references exported from [CrossReferences.org](https://
 This dataset is derived from the Treasury of Scripture Knowledge (originally anchored to KJV phrasing) and restructures it so that each translation has its own anchor phrases mapped to its own text and versification.
 
 ## Important Note
-This is a work in progress. The mapping to new translations are not 100% complete, and a second pass remains to be done to improve quality. [See Report](general_report.md) for details.
+This is a work in progress. The mapping to new translations are complete. A second pass remains to be done to improve the quality of the mappings. [See Report](general_report.md) for details.
 
 ## On Curation
 The reference set is not a verbatim copy of TSK. References are added, split, merged, or removed where doing so serves the reader. Such changes are deliberate and conservative (currently well under 1% of the set) and are expected to grow modestly as the project matures.  
 
-The aim is to improve the connections themselves, not to pile more references onto every verse. References are removed when they make more sense in the other direction, or when they rest on KJV phrasing that doesn't carry into other translations. A shorter, sounder list serves the reader better — and following the references onward, from verse to verse, recovers the wider picture when it is wanted. Have a look at [this experiment](https://crossreferences.org/sandbox/connection-explorer) to see what becomes possible.
+The aim is to improve the connections themselves, not to pile more references onto every verse. References are removed when they make more sense in the other direction, or when they depend on KJV phrasing that doesn't carry into other translations. A shorter, sounder list serves the reader better — and following the references onward, from verse to verse, recovers the wider picture when it is wanted. Have a look at [this experiment](https://crossreferences.org/sandbox/connection-explorer) to see what becomes possible.
 
 ## Format
 
@@ -45,12 +45,14 @@ for entry in parse_file('s21/crossreferences_s21.tsv'):
         print(f"  {ref['book']} {ref['chapter']}:{ref['verses']}")
 ```
 
+I intend to at some stage make a better parser in both Python and C# to help you get started as quickly and as easily as possible.
+
 ## Translations
 
 | Code | Translation | Language | Status | License |
 |---|---|---|---|---|
 | KJV | King James Version | English | Complete | Public domain |
-| BSB | Berean Standard Bible | English | Pass 1 In progress | Public domain |
+| BSB | Berean Standard Bible | English | Pass 1 Complete | Public domain |
 | S21 | Segond 21 | French | Pass 1 Complete | Used with permission from Société Biblique de Genève |
 | AOV | Afrikaanse Ou Vertaling | Afrikaans | Pass 1 Complete | Public domain |
 
@@ -59,8 +61,6 @@ for entry in parse_file('s21/crossreferences_s21.tsv'):
 ## License
 
 The cross-reference data in this repository is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-
-The parser script is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## About
 
