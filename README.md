@@ -60,7 +60,7 @@ I intend to at some stage make a better parser in both Python and C# to help you
 
 ## License
 
-The cross-reference data in this repository is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+The cross-reference data in this repository is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## About
 
