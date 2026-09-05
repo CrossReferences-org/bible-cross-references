@@ -4,6 +4,8 @@ Phrase-level Bible cross-references exported from [CrossReferences.org](https://
 
 This dataset is derived from the Treasury of Scripture Knowledge (originally anchored to KJV phrasing) and restructures it so that each translation has its own anchor phrases mapped to its own text and versification.
 
+If you want to explore the data _interactively_, check out the [Bible Reader](https://crossreferences.org/tsk/19/23/BSB/)
+
 ## Important Note
 This is a work in progress. The mappings to new translations are complete. A second pass remains to be done to improve their quality. [See Report](general_report.md) for details.
 
