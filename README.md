@@ -14,6 +14,61 @@ The aim is to improve the connections themselves, not to pile more references on
 
 ## Format
 
+### JSON
+
+The json folder includes everything you need to get started with you own app or research.
+#### bible_books.json
+```json
+{
+    "id": 1,
+    "name_eng": "Genesis",
+    "name_fra": "Genèse",
+    "name_afr": "Genesis",
+    "abbreviation_eng": "Gen",
+    "abbreviation_fra": "Gn",
+    "abbreviation_afr": "Gen"
+  },
+```
+#### bible_verses.json
+```json
+{
+    "id": 10,
+    "book_id": 1,
+    "kjv_ch": 1,
+    "kjv_vs": 1,
+    "kjv_sort": 1,
+    "kjv_text": "In the beginning God created the heaven and the earth.",
+    "bsb_ch": 1,
+    "bsb_vs": 1,
+    "bsb_sort": 1,
+    "bsb_text": "In the beginning God created the heavens and the earth.",
+    "aov_ch": 1,
+    "aov_vs": 1,
+    "aov_sort": 1,
+    "aov_text": "IN die begin het God die hemel en die aarde geskape."
+  },
+```
+
+#### cross_references.json
+```jsonc
+{
+    "verse_id": 10,  // References are for this verse
+    "sort": 2,
+    "kjv": "beginning",  
+    "bsb": "beginning",  // The phase in the verse to which the references are anchored
+    "aov": "IN die begin",
+    "s21": "commencement",
+    "refs": [   // Each entry is a collection of verses meant to be one reference
+      [166970, 166980, 166990],  // Prov 8:22-24
+      [169170],                  // Prov 16:4
+      [248100],                  // Mark 13:19
+      [261190, 261200, 261210],  // John 1:1-3
+      [300490],                  // Heb 1:10
+      [306170]                   // 1 John 1:1
+    ]
+  },
+```
+### TSV
 Each translation has a single TSV file with five columns:
 
 | Column | Description |
@@ -24,28 +79,17 @@ Each translation has a single TSV file with five columns:
 | `anchor` | The phrase in the verse that the cross-references are anchored to |
 | `references` | Target references, separated by `\|` |
 
+Example (`bsb/crossreferences_bsb.tsv`):
+
+```
+Gen	1	1	beginning	Prov 8:22-24|Prov 16:4|Mark 13:19|John 1:1-3|Heb 1:10|1 John 1:1
+```
+
 Example (`s21/crossreferences_s21.tsv`):
 
 ```
 Gn	1	1	Au commencement	Pr 8:22-24|Pr 16:4|Mc 13:19|Jn 1:1-3|Hé 1:10|1 Jn 1:1
-Gn	1	1	Dieu créa	Ps 33:6|Ps 136:5|Ac 17:24
 ```
-
-## Parser
-
-`parse_crossreferences.py` is a standalone Python script (no dependencies) that parses the TSV files into structured data:
-
-```python
-from parse_crossreferences import parse_file
-
-for entry in parse_file('s21/crossreferences_s21.tsv'):
-    print(entry['book'], entry['chapter'], entry['verse'])
-    print(entry['anchor'])
-    for ref in entry['references']:
-        print(f"  {ref['book']} {ref['chapter']}:{ref['verses']}")
-```
-
-I intend to at some stage make a better parser in both Python and C# to help you get started as quickly and as easily as possible.
 
 ## Translations
 
