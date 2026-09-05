@@ -5,7 +5,7 @@ Phrase-level Bible cross-references exported from [CrossReferences.org](https://
 This dataset is derived from the Treasury of Scripture Knowledge (originally anchored to KJV phrasing) and restructures it so that each translation has its own anchor phrases mapped to its own text and versification.
 
 ## Important Note
-This is a work in progress. The mapping to new translations are complete. A second pass remains to be done to improve the quality of the mappings. [See Report](general_report.md) for details.
+This is a work in progress. The mappings to new translations are complete. A second pass remains to be done to improve their quality. [See Report](general_report.md) for details.
 
 ## On Curation
 The reference set is not a verbatim copy of TSK. References are added, split, merged, or removed where doing so serves the reader. Such changes are deliberate and conservative (currently well under 1% of the set) and are expected to grow modestly as the project matures.  
@@ -55,7 +55,7 @@ The json folder includes everything you need to get started with you own app or 
     "verse_id": 10,  // References are for this verse
     "sort": 2,
     "kjv": "beginning",  
-    "bsb": "beginning",  // The phase in the verse to which the references are anchored
+    "bsb": "beginning",  // The phrase in the verse to which the references are anchored
     "aov": "IN die begin",
     "s21": "commencement",
     "refs": [   // Each entry is a collection of verses meant to be one reference
