@@ -55,7 +55,7 @@ The json folder includes everything you need to get started with you own app or 
 ```jsonc
 {
     "verse_id": 10,  // References are for this verse
-    "sort": 2,
+    "sort": 1,
     "kjv": "beginning",  
     "bsb": "beginning",  // The phrase in the verse to which the references are anchored
     "aov": "IN die begin",
