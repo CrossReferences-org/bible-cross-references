@@ -119,6 +119,7 @@ different place in each. Below, one passage divides three ways:
     "aov": "IN die begin",
     "s21": "commencement",
     "refs": [   // Each entry is a collection of verses meant to be one reference
+                // Join on bible_verses.json's id
       [166970, 166980, 166990],  // Prov 8:22-24
       [169170],                  // Prov 16:4
       [248100],                  // Mark 13:19
@@ -130,7 +131,7 @@ different place in each. Below, one passage divides three ways:
 ```
 ## Nesting in `refs` field
 While it might be tempting to collapse all the references into one flat list of verse IDs,
-doing so would lose imporant information. In the example above, there are 6 entries,
+doing so would lose important information. In the example above, there are 6 entries,
 each having meaning and intent. The two entries that have multiple verses, namely
 `Prov 8:22-24` and `John 1:1-3` are meant to be read as such, not as 6 unconnected
 verses. 
