@@ -108,6 +108,13 @@ Gn	1	1	Au commencement	Pr 8:22-24|Pr 16:4|Mc 13:19|Jn 1:1-3|Hé 1:10|1 Jn 1:1
 
 The cross-reference data in this repository is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
+## Corrections
+
+Corrections are welcome. [Open an issue](../../issues/new?title=Correction:%20&labels=correction&body=**Verse:**%20%0A**Anchor%20phrase:**%20%0A**Reference:**%20%0A%0A**Why:**%20)
+with the verse, the anchor phrase, and why you think the reference is wrong.
+Note that the data files are _generated exports_, so pull requests against them
+can't be merged.
+
 ## About
 
 This data is maintained as part of [CrossReferences.org](https://crossreferences.org), a free Bible study tool. The Treasury of Scripture Knowledge is a remarkable work, and this project stands on it gratefully. The aim is to make it accessible across translations, languages, and devices, as well as to refine it where appropriate.
