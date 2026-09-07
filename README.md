@@ -81,16 +81,16 @@ Each translation has a single TSV file with five columns:
 | `anchor` | The phrase in the verse that the cross-references are anchored to |
 | `references` | Target references, separated by `\|` |
 
-Example (`bsb/crossreferences_bsb.tsv`):
+Example (`tsv/crossreferences_bsb.tsv`):
 
 ```
 Gen	1	1	beginning	Prov 8:22-24|Prov 16:4|Mark 13:19|John 1:1-3|Heb 1:10|1 John 1:1
 ```
 
-Example (`s21/crossreferences_s21.tsv`):
+Example (`tsv/crossreferences_s21.tsv`):
 
 ```
-Gn	1	1	Au commencement	Pr 8:22-24|Pr 16:4|Mc 13:19|Jn 1:1-3|Hé 1:10|1 Jn 1:1
+Gn	1	1	commencement	Pr 8:22-24|Pr 16:4|Mc 13:19|Jn 1:1-3|Hé 1:10|1 Jn 1:1
 ```
 
 ## Translations
