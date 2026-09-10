@@ -1,3 +1,7 @@
+CREATE OR REPLACE TEMP TABLE books  AS SELECT * FROM read_json('bible_books.json');
+CREATE OR REPLACE TEMP TABLE verses AS SELECT * FROM read_json('bible_verses.json');
+CREATE OR REPLACE TEMP TABLE xrefs  AS SELECT * FROM read_json('cross_references.json');
+
 CREATE OR REPLACE MACRO squash(s) AS
   ' ' || trim(regexp_replace(s, '[^\p{L}\p{N}'']+', ' ', 'g')) || ' ';
 CREATE OR REPLACE MACRO norm(s, keep_case := false, fuse := false) AS
@@ -9,23 +13,33 @@ CREATE OR REPLACE MACRO norm(s, keep_case := false, fuse := false) AS
          ELSE CASE WHEN keep_case THEN s ELSE lower(s) END
     END
   );
+
+
 WITH j AS (
   SELECT
     c.verse_id,
     c.sort AS xref_sort,
     unnest([
-      {'translation': 'kjv', 'anchor': c.kjv, 'text': v.kjv_text},
-      {'translation': 'bsb', 'anchor': c.bsb, 'text': v.bsb_text},
-      {'translation': 'aov', 'anchor': c.aov, 'text': v.aov_text}
+      {'translation': 'kjv', 'abbrev': b.abbreviation_eng,
+       'ch': v.kjv_ch::VARCHAR, 'vs': v.kjv_vs::VARCHAR,
+       'anchor': c.kjv, 'text': v.kjv_text},
+      {'translation': 'bsb', 'abbrev': b.abbreviation_eng,
+       'ch': v.bsb_ch::VARCHAR, 'vs': v.bsb_vs::VARCHAR,
+       'anchor': c.bsb, 'text': v.bsb_text},
+      {'translation': 'aov', 'abbrev': b.abbreviation_afr,
+       'ch': v.aov_ch::VARCHAR, 'vs': v.aov_vs::VARCHAR,
+       'anchor': c.aov, 'text': v.aov_text}
     ]) AS t
-  FROM 'cross_references.json' c
-  INNER JOIN 'bible_verses.json' v ON v.id = c.verse_id
+  FROM xrefs c
+  INNER JOIN verses v ON v.id = c.verse_id
+  INNER JOIN books  b ON b.id = v.book_id
 ),
 m AS (
   SELECT
     verse_id,
     xref_sort,
     t.translation,
+    concat_ws(' ', t.abbrev, concat_ws(':', t.ch, t.vs)) AS ref,
     t.anchor,
     t.text,
     contains(norm(t.text, keep_case := true),
@@ -52,4 +66,4 @@ SELECT *,
   END AS match_kind
 FROM m
 WHERE NOT coalesce(exact_match, false)
-ORDER BY translation, match_kind, verse_id;
+ORDER BY translation DESC, match_kind, verse_id;
