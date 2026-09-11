@@ -7,7 +7,7 @@ This dataset is derived from the Treasury of Scripture Knowledge (originally anc
 If you want to explore the data _interactively_, check out the [Bible Reader](https://crossreferences.org/tsk/19/23/BSB/)
 
 ## Important Note
-This is a work in progress. The mappings to new translations are complete. A second pass remains to be done to improve their quality. [See Report](general_report.md) for details.
+This is a work in progress. The mappings to new translations are complete. A second pass is being done to improve their quality. [See Report](general_report.md) for details.
 
 ## On Curation
 The reference set is not a verbatim copy of TSK. References are added, split, merged, or removed where doing so serves the reader. Such changes are deliberate and conservative (currently well under 1% of the set) and are expected to grow modestly as the project matures.  
