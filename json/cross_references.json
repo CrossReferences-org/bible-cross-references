@@ -62701,7 +62701,7 @@
 	{"verse_id":308520,"sort":4,"kjv":"a flying","bsb":"in flight","aov":"arend wat vlieg","s21":"aigle en plein vol","refs":[[56610],[80470],[185250],[205460,205480],[207210],[220110],[225880]]},
 	{"verse_id":308530,"sort":1,"kjv":"six","bsb":"six wings","aov":"ses","s21":"six ailes","refs":[[178450,178460,178470,178480,178490,178500,178510,178520,178530,178540,178550,178560],[205440],[207280,207290]]},
 	{"verse_id":308530,"sort":2,"kjv":"full","bsb":"covered with eyes","aov":"vol oë","s21":"couverts d'yeux","refs":[[308510],[298390]]},
-	{"verse_id":308530,"sort":3,"kjv":"and they","bsb":"Day and night they never stop","aov":"sonder ophou","s21":"ne cessent de dire","refs":[[309020],[189290,189340,189350],[277320],[296550],[297620,297630]]},
+	{"verse_id":308530,"sort":3,"kjv":"and they","bsb":"Day and night they never stop","aov":"dag en nag","s21":"jour et nuit","refs":[[309020],[158860,158870,158880,158890,158900],[189290,189340,189350]]},
 	{"verse_id":308530,"sort":4,"kjv":"Holy","bsb":"Holy, Holy, Holy","aov":"Heilig, heilig, heilig","s21":"Saint, saint, saint","refs":[[308300],[19320],[178460]]},
 	{"verse_id":308530,"sort":5,"kjv":"Lord God Almighty","bsb":"Lord God Almighty","aov":"Here God, die Almagtige","s21":"Seigneur Dieu, le Tout-Puissant","refs":[[307820],[309660],[310270],[310390,310460],[311100],[311530],[3990],[154640],[179860],[223800],[289920]]},
 	{"verse_id":308530,"sort":6,"kjv":"which","bsb":"who was and is and is to come","aov":"wat was","s21":"qui était, qui est et qui vient","refs":[[308490],[303250]]},
