@@ -1,15 +1,15 @@
-Report Generated on: 2026-09-10 14:46
+Report Generated on: 2026-09-11 17:52
 
 ## Empty Anchors:
 - S21:     192  ( 0.302% )  
 - AOV:     260  ( 0.408% )  
-- BSB:     407  ( 0.639% )  
+- BSB:     406  ( 0.638% )  
 
 ## Anchors that do not match the verse exactly (Whole Word):  
 - S21:      20  ( 0.031% )  
 - AOV:       2  ( 0.003% )  
 - BSB:       3  ( 0.005% )  
-- KJV:    2465  ( 3.871% )  
+- KJV:    2426  ( 3.810% )  
 
 ## Verses with an anchor appearing more than once:  
 - S21:     937  ( 1.472% )  
