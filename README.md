@@ -93,6 +93,18 @@ Example (`tsv/crossreferences_s21.tsv`):
 Gn	1	1	commencement	Pr 8:22-24|Pr 16:4|Mc 13:19|Jn 1:1-3|Hé 1:10|1 Jn 1:1
 ```
 
+### SQL
+
+The [`queries`](queries/) folder has a few [DuckDB](https://duckdb.org) queries that run
+straight against the JSON files — top-cited verses, densest chapters, and so on.
+Run them from inside that folder, since the paths are relative:
+```
+cd queries
+duckdb < verses_most_often_cited.sql
+```
+They double as worked examples if you want to write your own.
+
+
 ## Translations
 
 | Code | Translation | Language | Status | License |
