@@ -18,10 +18,10 @@ group by all);
 
 create or replace table output as
 select row_number() over (order by passages / verse_count desc) "#",
-	   passages "Passages Referenced", 
-       anchor_phrases "Anchor Phrases",
+	   passages::int "Passages Referenced", 
+       anchor_phrases::int "Anchor Phrases",
        format('{} {}', book, chapter) Chapter,
-       verse_count,
+       verse_count::int,
        round(passages / verse_count, 1) "Avg Passages/Verse",
 from prel 
 order by "Avg Passages/Verse" desc
@@ -30,10 +30,10 @@ limit 50;
 select * from output
 union all
 select null,
-	   round(avg(passages)), 
-       round(avg(anchor_phrases)), 
+	   round(avg(passages))::int, 
+       round(avg(anchor_phrases))::int, 
        '** Average **', 
-       round(avg(verse_count)), 
+       round(avg(verse_count))::int, 
        round(sum(passages) / sum(verse_count), 1),
 from prel
 order by "Avg Passages/Verse" desc
