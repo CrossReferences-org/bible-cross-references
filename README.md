@@ -6,8 +6,8 @@ This dataset is derived from the Treasury of Scripture Knowledge (originally anc
 
 If you want to explore the data _interactively_, check out the [Bible Reader](https://crossreferences.org/tsk/19/23/BSB/)
 
-## Important Note
-This is a work in progress. The mappings to new translations are complete. A second pass is being done to improve their quality. [See Report](general_report.md) for details.
+## Status
+Complete and in active use across all four translations. Refinement is ongoing and released in rolling updates. [See Report](general_report.md) for details.
 
 ## On Curation
 The reference set is not a verbatim copy of TSK. References are added, split, merged, or removed where doing so serves the reader. Such changes are deliberate and conservative (currently well under 1% of the set) and are expected to grow modestly as the project matures.  
@@ -110,9 +110,9 @@ They double as worked examples if you want to write your own.
 | Code | Translation | Language | Status | License |
 |---|---|---|---|---|
 | KJV | King James Version | English | Complete | Public domain |
-| BSB | Berean Standard Bible | English | Pass 1 Complete | Public domain |
-| S21 | Segond 21 | French | Pass 1 Complete | Used with permission from Société Biblique de Genève |
-| AOV | Afrikaanse Ou Vertaling | Afrikaans | Pass 1 Complete | Public domain |
+| BSB | Berean Standard Bible | English | Complete | Public domain |
+| S21 | Segond 21 | French | Complete | Used with permission from Société Biblique de Genève |
+| AOV | Afrikaanse Ou Vertaling | Afrikaans | Complete | Public domain |
 
 **Note on S21:** The Segond 21 Bible text is © Société Biblique de Genève. This dataset contains only the anchor phrases (short fragments used to locate cross-references within a verse), not the full Bible text.
 
