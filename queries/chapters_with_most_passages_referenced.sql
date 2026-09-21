@@ -21,7 +21,7 @@ select row_number() over (order by passages / verse_count desc) "#",
 	   passages::int "Passages Referenced", 
        anchor_phrases::int "Anchor Phrases",
        format('{} {}', book, chapter) Chapter,
-       verse_count::int,
+       verse_count::int "Verse Count",
        round(passages / verse_count, 1) "Avg Passages/Verse",
 from prel 
 order by "Avg Passages/Verse" desc

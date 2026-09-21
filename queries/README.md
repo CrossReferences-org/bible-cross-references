@@ -116,7 +116,7 @@ select row_number() over (order by passages / verse_count desc) "#",
 	   passages::int "Passages Referenced", 
        anchor_phrases::int "Anchor Phrases",
        format('{} {}', book, chapter) Chapter,
-       verse_count::int,
+       verse_count::int "Verse Count",
        round(passages / verse_count, 1) "Avg Passages/Verse",
 from prel 
 order by "Avg Passages/Verse" desc
@@ -137,59 +137,59 @@ order by "Avg Passages/Verse" desc
 
 </details>
 
-|  #   | Passages Referenced | Anchor Phrases |      Chapter      | CAST(verse_count AS INTEGER) | Avg Passages/Verse |
+|  #   | Passages Referenced | Anchor Phrases |      Chapter      | Verse Count | Avg Passages/Verse |
 | --- | ---: | ---: | --- | ---: | ---: |
-| 1    | 269                 | 38             | 1 Thessalonians 1 | 10                           | 26.9               |
-| 2    | 669                 | 101            | 1 Peter 1         | 25                           | 26.8               |
-| 3    | 590                 | 74             | Ephesians 1       | 23                           | 25.7               |
-| 4    | 534                 | 56             | Romans 12         | 21                           | 25.4               |
-| 5    | 150                 | 18             | Malachi 4         | 6                            | 25.0               |
-| 6    | 445                 | 58             | Malachi 3         | 18                           | 24.7               |
-| 7    | 514                 | 77             | 1 Timothy 6       | 21                           | 24.5               |
-| 8    | 241                 | 30             | Isaiah 35         | 10                           | 24.1               |
-| 9    | 504                 | 71             | Philippians 3     | 21                           | 24.0               |
-| 10   | 595                 | 84             | Colossians 3      | 25                           | 23.8               |
-| 11   | 281                 | 37             | 2 Thessalonians 1 | 12                           | 23.4               |
-| 12   | 676                 | 100            | Colossians 1      | 29                           | 23.3               |
-| 13   | 509                 | 70             | Ephesians 2       | 22                           | 23.1               |
-| 14   | 323                 | 59             | 1 Peter 5         | 14                           | 23.1               |
-| 15   | 273                 | 46             | Zechariah 10      | 12                           | 22.8               |
-| 16   | 318                 | 46             | Hebrews 1         | 14                           | 22.7               |
-| 17   | 405                 | 59             | 2 Corinthians 6   | 18                           | 22.5               |
-| 18   | 719                 | 105            | Ephesians 4       | 32                           | 22.5               |
-| 19   | 201                 | 24             | Zechariah 13      | 9                            | 22.3               |
-| 20   | 444                 | 62             | Hebrews 6         | 20                           | 22.2               |
-| 21   | 438                 | 79             | 1 Timothy 1       | 20                           | 21.9               |
-| 22   | 391                 | 66             | 2 Timothy 1       | 18                           | 21.7               |
-| 23   | 216                 | 37             | 1 John 1          | 10                           | 21.6               |
-| 24   | 538                 | 97             | 1 Peter 2         | 25                           | 21.5               |
-| 25   | 276                 | 41             | 1 Corinthians 13  | 13                           | 21.2               |
-| 26   | 190                 | 30             | Hosea 14          | 9                            | 21.1               |
-| 27   | 274                 | 37             | Isaiah 55         | 13                           | 21.1               |
-| 31   | 415                 | 62             | Zephaniah 3       | 20                           | 20.8               |
-| 30   | 478                 | 81             | Colossians 2      | 23                           | 20.8               |
-| 29   | 416                 | 62             | 1 Thessalonians 2 | 20                           | 20.8               |
-| 28   | 125                 | 15             | Isaiah 12         | 6                            | 20.8               |
-| 33   | 600                 | 88             | Hebrews 12        | 29                           | 20.7               |
-| 34   | 558                 | 69             | James 1           | 27                           | 20.7               |
-| 32   | 373                 | 58             | 1 Thessalonians 4 | 18                           | 20.7               |
-| 35   | 656                 | 108            | Romans 1          | 32                           | 20.5               |
-| 36   | 451                 | 79             | Lamentations 1    | 22                           | 20.5               |
-| 37   | 346                 | 55             | 2 Timothy 3       | 17                           | 20.4               |
-| 38   | 624                 | 77             | John 14           | 31                           | 20.1               |
-| 39   | 322                 | 53             | 1 Timothy 4       | 16                           | 20.1               |
-| 40   | 599                 | 85             | Philippians 2     | 30                           | 20.0               |
-| 41   | 358                 | 48             | James 3           | 18                           | 19.9               |
-| 42   | 317                 | 60             | 1 Timothy 3       | 16                           | 19.8               |
-| 43   | 297                 | 52             | Titus 2           | 15                           | 19.8               |
-| 44   | 375                 | 69             | 1 Peter 4         | 19                           | 19.7               |
-| 45   | 412                 | 60             | 2 Corinthians 5   | 21                           | 19.6               |
-| 46   | 408                 | 73             | 2 Peter 1         | 21                           | 19.4               |
-| 47   | 484                 | 72             | Hebrews 13        | 25                           | 19.4               |
-| 48   | 329                 | 61             | Zechariah 9       | 17                           | 19.4               |
-| 49   | 251                 | 46             | Micah 2           | 13                           | 19.3               |
-| 50   | 328                 | 52             | Malachi 2         | 17                           | 19.3               |
-| NULL | 257                 | 54             | ** Average **     | 26                           | 9.8                |
+| 1    | 269                 | 38             | 1 Thessalonians 1 | 10          | 26.9               |
+| 2    | 669                 | 101            | 1 Peter 1         | 25          | 26.8               |
+| 3    | 590                 | 74             | Ephesians 1       | 23          | 25.7               |
+| 4    | 534                 | 56             | Romans 12         | 21          | 25.4               |
+| 5    | 150                 | 18             | Malachi 4         | 6           | 25.0               |
+| 6    | 445                 | 58             | Malachi 3         | 18          | 24.7               |
+| 7    | 514                 | 77             | 1 Timothy 6       | 21          | 24.5               |
+| 8    | 241                 | 30             | Isaiah 35         | 10          | 24.1               |
+| 9    | 504                 | 71             | Philippians 3     | 21          | 24.0               |
+| 10   | 595                 | 84             | Colossians 3      | 25          | 23.8               |
+| 11   | 281                 | 37             | 2 Thessalonians 1 | 12          | 23.4               |
+| 12   | 676                 | 100            | Colossians 1      | 29          | 23.3               |
+| 13   | 509                 | 70             | Ephesians 2       | 22          | 23.1               |
+| 14   | 323                 | 59             | 1 Peter 5         | 14          | 23.1               |
+| 15   | 273                 | 46             | Zechariah 10      | 12          | 22.8               |
+| 16   | 318                 | 46             | Hebrews 1         | 14          | 22.7               |
+| 17   | 405                 | 59             | 2 Corinthians 6   | 18          | 22.5               |
+| 18   | 719                 | 105            | Ephesians 4       | 32          | 22.5               |
+| 19   | 201                 | 24             | Zechariah 13      | 9           | 22.3               |
+| 20   | 444                 | 62             | Hebrews 6         | 20          | 22.2               |
+| 21   | 438                 | 79             | 1 Timothy 1       | 20          | 21.9               |
+| 22   | 391                 | 66             | 2 Timothy 1       | 18          | 21.7               |
+| 23   | 216                 | 37             | 1 John 1          | 10          | 21.6               |
+| 24   | 538                 | 97             | 1 Peter 2         | 25          | 21.5               |
+| 25   | 276                 | 41             | 1 Corinthians 13  | 13          | 21.2               |
+| 26   | 190                 | 30             | Hosea 14          | 9           | 21.1               |
+| 27   | 274                 | 37             | Isaiah 55         | 13          | 21.1               |
+| 31   | 415                 | 62             | Zephaniah 3       | 20          | 20.8               |
+| 30   | 478                 | 81             | Colossians 2      | 23          | 20.8               |
+| 29   | 416                 | 62             | 1 Thessalonians 2 | 20          | 20.8               |
+| 28   | 125                 | 15             | Isaiah 12         | 6           | 20.8               |
+| 33   | 600                 | 88             | Hebrews 12        | 29          | 20.7               |
+| 34   | 558                 | 69             | James 1           | 27          | 20.7               |
+| 32   | 373                 | 58             | 1 Thessalonians 4 | 18          | 20.7               |
+| 35   | 656                 | 108            | Romans 1          | 32          | 20.5               |
+| 36   | 451                 | 79             | Lamentations 1    | 22          | 20.5               |
+| 37   | 346                 | 55             | 2 Timothy 3       | 17          | 20.4               |
+| 38   | 624                 | 77             | John 14           | 31          | 20.1               |
+| 39   | 322                 | 53             | 1 Timothy 4       | 16          | 20.1               |
+| 40   | 599                 | 85             | Philippians 2     | 30          | 20.0               |
+| 41   | 358                 | 48             | James 3           | 18          | 19.9               |
+| 42   | 317                 | 60             | 1 Timothy 3       | 16          | 19.8               |
+| 43   | 297                 | 52             | Titus 2           | 15          | 19.8               |
+| 44   | 375                 | 69             | 1 Peter 4         | 19          | 19.7               |
+| 45   | 412                 | 60             | 2 Corinthians 5   | 21          | 19.6               |
+| 46   | 408                 | 73             | 2 Peter 1         | 21          | 19.4               |
+| 47   | 484                 | 72             | Hebrews 13        | 25          | 19.4               |
+| 48   | 329                 | 61             | Zechariah 9       | 17          | 19.4               |
+| 49   | 251                 | 46             | Micah 2           | 13          | 19.3               |
+| 50   | 328                 | 52             | Malachi 2         | 17          | 19.3               |
+| NULL | 257                 | 54             | ** Average **     | 26          | 9.8                |
 
 ## Verses most often cited, counting inward rather than outward. Top 50
 
@@ -242,43 +242,43 @@ limit 50;
 | 9  | 150       | 149           | 2 Corinthians 5:21   | God made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God.                                                                                                                                                              |
 | 10 | 149       | 147           | Titus 3:5            | He saved us, not by the righteous deeds we had done, but according to His mercy, through the washing of new birth and renewal by the Holy Spirit.                                                                                                                           |
 | 11 | 145       | 79            | Psalms 46:1          | For the choirmaster. Of the sons of Korah. According to Alamoth. A song. God is our refuge and strength, an ever-present help in times of trouble.                                                                                                                          |
-| 12 | 144       | 143           | 2 Thessalonians 2:10 | and with every wicked deception directed against those who are perishing, because they refused the love of the truth that would have saved them.                                                                                                                            |
-| 13 | 144       | 144           | Isaiah 55:7          | Let the wicked man forsake his own way and the unrighteous man his own thoughts; let him return to the LORD, that He may have compassion, and to our God, for He will freely pardon.                                                                                        |
+| 12 | 144       | 144           | Isaiah 55:7          | Let the wicked man forsake his own way and the unrighteous man his own thoughts; let him return to the LORD, that He may have compassion, and to our God, for He will freely pardon.                                                                                        |
+| 13 | 144       | 143           | 2 Thessalonians 2:10 | and with every wicked deception directed against those who are perishing, because they refused the love of the truth that would have saved them.                                                                                                                            |
 | 14 | 143       | 139           | Revelation 11:15     | Then the seventh angel sounded his trumpet, and loud voices called out in heaven: “The kingdom of the world has become the kingdom of our Lord and of His Christ, and He will reign forever and ever.”                                                                      |
 | 15 | 139       | 75            | Galatians 5:23       | gentleness, and self-control. Against such things there is no law.                                                                                                                                                                                                          |
 | 16 | 137       | 137           | Acts 26:18           | to open their eyes, so that they may turn from darkness to light and from the power of Satan to God, that they may receive forgiveness of sins and an inheritance among those sanctified by faith in Me.’                                                                   |
 | 17 | 135       | 130           | 2 Peter 2:3          | In their greed, these false teachers will exploit you with deceptive words. The longstanding verdict against them remains in force, and their destruction does not sleep.                                                                                                   |
 | 18 | 134       | 132           | Jeremiah 23:6        | In His days Judah will be saved, and Israel will dwell securely. And this is His name by which He will be called: The LORD Our Righteousness.                                                                                                                               |
 | 19 | 133       | 133           | 2 Thessalonians 1:8  | in blazing fire, inflicting vengeance on those who do not know God and do not obey the gospel of our Lord Jesus.                                                                                                                                                            |
-| 20 | 131       | 131           | Galatians 5:22       | But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness,                                                                                                                                                                                |
 | 21 | 131       | 130           | 2 Thessalonians 2:11 | For this reason God will send them a powerful delusion so that they believe the lie,                                                                                                                                                                                        |
-| 22 | 130       | 127           | Ephesians 3:8        | Though I am less than the least of all the saints, this grace was given me: to preach to the Gentiles the unsearchable riches of Christ,                                                                                                                                    |
-| 23 | 130       | 128           | 2 Corinthians 4:6    | For God, who said, “Let light shine out of darkness,” made His light shine in our hearts to give us the light of the knowledge of the glory of God in the face of Jesus Christ.                                                                                             |
+| 20 | 131       | 131           | Galatians 5:22       | But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness,                                                                                                                                                                                |
+| 23 | 130       | 127           | Ephesians 3:8        | Though I am less than the least of all the saints, this grace was given me: to preach to the Gentiles the unsearchable riches of Christ,                                                                                                                                    |
+| 22 | 130       | 128           | 2 Corinthians 4:6    | For God, who said, “Let light shine out of darkness,” made His light shine in our hearts to give us the light of the knowledge of the glory of God in the face of Jesus Christ.                                                                                             |
 | 24 | 129       | 43            | Psalms 51:1          | For the choirmaster. A Psalm of David. When Nathan the prophet came to him after his adultery with Bathsheba. Have mercy on me, O God, according to Your loving devotion; according to Your great compassion, blot out my transgressions.                                   |
 | 25 | 128       | 126           | Isaiah 61:3          | to console the mourners in Zion—to give them a crown of beauty for ashes, the oil of joy for mourning, and a garment of praise for a spirit of despair. So they will be called oaks of righteousness, the planting of the LORD, that He may be glorified.                   |
 | 26 | 127       | 127           | Isaiah 41:10         | Do not fear, for I am with you; do not be afraid, for I am your God. I will strengthen you; I will surely help you; I will uphold you with My right hand of righteousness.                                                                                                  |
-| 27 | 126       | 126           | Psalms 2:6           | “I have installed My King on Zion, upon My holy mountain.”                                                                                                                                                                                                                  |
-| 30 | 126       | 126           | Romans 2:5           | But because of your hard and unrepentant heart, you are storing up wrath against yourself for the day of wrath, when God’s righteous judgment will be revealed.                                                                                                             |
-| 28 | 126       | 125           | Isaiah 61:1          | The Spirit of the Lord GOD is on Me, because the LORD has anointed Me to preach good news to the poor. He has sent Me to bind up the brokenhearted, to proclaim liberty to the captives and freedom to the prisoners,                                                       |
-| 29 | 126       | 124           | Isaiah 53:11         | After the anguish of His soul, He will see the light of life and be satisfied. By His knowledge My righteous Servant will justify many, and He will bear their iniquities.                                                                                                  |
 | 31 | 126       | 123           | Matthew 25:40        | And the King will reply, ‘Truly I tell you, whatever you did for one of the least of these brothers of Mine, you did for Me.’                                                                                                                                               |
+| 29 | 126       | 126           | Romans 2:5           | But because of your hard and unrepentant heart, you are storing up wrath against yourself for the day of wrath, when God’s righteous judgment will be revealed.                                                                                                             |
+| 27 | 126       | 126           | Psalms 2:6           | “I have installed My King on Zion, upon My holy mountain.”                                                                                                                                                                                                                  |
+| 28 | 126       | 125           | Isaiah 61:1          | The Spirit of the Lord GOD is on Me, because the LORD has anointed Me to preach good news to the poor. He has sent Me to bind up the brokenhearted, to proclaim liberty to the captives and freedom to the prisoners,                                                       |
+| 30 | 126       | 124           | Isaiah 53:11         | After the anguish of His soul, He will see the light of life and be satisfied. By His knowledge My righteous Servant will justify many, and He will bear their iniquities.                                                                                                  |
 | 32 | 125       | 124           | Revelation 7:14      | “Sir,” I answered, “you know.” So he replied, “These are the ones who have come out of the great tribulation; they have washed their robes and made them white in the blood of the Lamb.                                                                                    |
 | 33 | 124       | 123           | Revelation 19:2      | For His judgments are true and just. He has judged the great prostitute who corrupted the earth with her immorality. He has avenged the blood of His servants that was poured out by her hand.”                                                                             |
-| 34 | 123       | 122           | Luke 12:20           | But God said to him, ‘You fool! This very night your life will be required of you. Then who will own what you have accumulated?’                                                                                                                                            |
 | 35 | 123       | 122           | Hebrews 12:2         | Let us fix our eyes on Jesus, the author and perfecter of our faith, who for the joy set before Him endured the cross, scorning its shame, and sat down at the right hand of the throne of God.                                                                             |
+| 34 | 123       | 122           | Luke 12:20           | But God said to him, ‘You fool! This very night your life will be required of you. Then who will own what you have accumulated?’                                                                                                                                            |
 | 37 | 122       | 121           | Isaiah 53:10         | Yet it was the LORD’s will to crush Him and to cause Him to suffer; and when His soul is made a guilt offering, He will see His offspring, He will prolong His days, and the good pleasure of the LORD will prosper in His hand.                                            |
-| 38 | 122       | 122           | Isaiah 57:15         | For thus says the One who is high and lifted up, who inhabits eternity, whose name is Holy: “I dwell in a high and holy place, and with the oppressed and humble in spirit, to restore the spirit of the lowly and revive the heart of the contrite.                        |
-| 36 | 122       | 122           | 2 Chronicles 36:16   | But they mocked the messengers of God, despising His words and scoffing at His prophets, until the wrath of the LORD against His people was stirred up beyond remedy.                                                                                                       |
-| 39 | 121       | 120           | Jeremiah 23:5        | Behold, the days are coming, declares the LORD, when I will raise up for David a righteous Branch, and He will reign wisely as King and will administer justice and righteousness in the land.                                                                              |
-| 40 | 121       | 117           | Jeremiah 31:33       | “But this is the covenant I will make with the house of Israel after those days, declares the LORD. I will put My law in their minds and inscribe it on their hearts. And I will be their God, and they will be My people.                                                  |
-| 43 | 120       | 120           | Daniel 9:26          | Then after the sixty-two weeks the Messiah will be cut off and will have nothing. Then the people of the prince who is to come will destroy the city and the sanctuary. The end will come like a flood, and until the end there will be war; desolations have been decreed. |
-| 41 | 120       | 69            | Philippians 2:8      | And being found in appearance as a man, He humbled Himself and became obedient to death—even death on a cross.                                                                                                                                                              |
+| 36 | 122       | 122           | Isaiah 57:15         | For thus says the One who is high and lifted up, who inhabits eternity, whose name is Holy: “I dwell in a high and holy place, and with the oppressed and humble in spirit, to restore the spirit of the lowly and revive the heart of the contrite.                        |
+| 38 | 122       | 122           | 2 Chronicles 36:16   | But they mocked the messengers of God, despising His words and scoffing at His prophets, until the wrath of the LORD against His people was stirred up beyond remedy.                                                                                                       |
+| 40 | 121       | 120           | Jeremiah 23:5        | Behold, the days are coming, declares the LORD, when I will raise up for David a righteous Branch, and He will reign wisely as King and will administer justice and righteousness in the land.                                                                              |
+| 39 | 121       | 117           | Jeremiah 31:33       | “But this is the covenant I will make with the house of Israel after those days, declares the LORD. I will put My law in their minds and inscribe it on their hearts. And I will be their God, and they will be My people.                                                  |
+| 43 | 120       | 69            | Philippians 2:8      | And being found in appearance as a man, He humbled Himself and became obedient to death—even death on a cross.                                                                                                                                                              |
+| 41 | 120       | 120           | Daniel 9:26          | Then after the sixty-two weeks the Messiah will be cut off and will have nothing. Then the people of the prince who is to come will destroy the city and the sanctuary. The end will come like a flood, and until the end there will be war; desolations have been decreed. |
 | 42 | 120       | 119           | Ezekiel 36:25        | I will also sprinkle clean water on you, and you will be clean. I will cleanse you from all your impurities and all your idols.                                                                                                                                             |
-| 44 | 119       | 118           | Romans 3:19          | Now we know that whatever the law says, it says to those who are under the law, so that every mouth may be silenced and the whole world held accountable to God.                                                                                                            |
-| 45 | 119       | 118           | Philippians 2:11     | and every tongue confess that Jesus Christ is Lord, to the glory of God the Father.                                                                                                                                                                                         |
 | 46 | 119       | 119           | Hebrews 6:18         | Thus by two unchangeable things in which it is impossible for God to lie, we who have fled to take hold of the hope set before us may be strongly encouraged.                                                                                                               |
+| 44 | 119       | 118           | Philippians 2:11     | and every tongue confess that Jesus Christ is Lord, to the glory of God the Father.                                                                                                                                                                                         |
+| 45 | 119       | 118           | Romans 3:19          | Now we know that whatever the law says, it says to those who are under the law, so that every mouth may be silenced and the whole world held accountable to God.                                                                                                            |
 | 47 | 118       | 116           | James 3:17           | But the wisdom from above is first of all pure, then peace-loving, gentle, accommodating, full of mercy and good fruit, impartial, and sincere.                                                                                                                             |
+| 48 | 117       | 115           | 1 Peter 2:5          | you also, like living stones, are being built into a spiritual house to be a holy priesthood, offering spiritual sacrifices acceptable to God through Jesus Christ.                                                                                                         |
 | 50 | 117       | 117           | Genesis 49:10        | The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.                                                                                                                                   |
-| 48 | 117       | 38            | Psalms 52:1          | For the choirmaster. A Maskil of David. After Doeg the Edomite went to Saul and told him, “David has gone to the house of Ahimelech.” Why do you boast of evil, O mighty man? The loving devotion of God endures all day long.                                              |
-| 49 | 117       | 115           | 1 Peter 2:5          | you also, like living stones, are being built into a spiritual house to be a holy priesthood, offering spiritual sacrifices acceptable to God through Jesus Christ.                                                                                                         |
+| 49 | 117       | 38            | Psalms 52:1          | For the choirmaster. A Maskil of David. After Doeg the Edomite went to Saul and told him, “David has gone to the house of Ahimelech.” Why do you boast of evil, O mighty man? The loving devotion of God endures all day long.                                              |
 
