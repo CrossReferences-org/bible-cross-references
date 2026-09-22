@@ -17,14 +17,14 @@ inner join chapter_counts c on c.book_id=b.id and c.bsb_ch=v.bsb_ch
 group by all);
 
 create or replace table output as
-select row_number() over (order by passages / verse_count desc) "#",
+select row_number() over (order by passages / verse_count desc, book_id, chapter) "#",
 	   passages::int "Passages Referenced", 
        anchor_phrases::int "Anchor Phrases",
        format('{} {}', book, chapter) Chapter,
        verse_count::int "Verse Count",
        round(passages / verse_count, 1) "Avg Passages/Verse",
 from prel 
-order by "Avg Passages/Verse" desc
+order by "#"
 limit 50;
 
 select * from output
@@ -36,5 +36,4 @@ select null,
        round(avg(verse_count))::int, 
        round(sum(passages) / sum(verse_count), 1),
 from prel
-order by "Avg Passages/Verse" desc
-
+order by "#" nulls last;

@@ -80,6 +80,9 @@ for sql in *.sql; do
     echo
     echo '```sql'
     cat "$sql"
+    # Files saved without a final newline would put the closing fence on the
+    # query's last line, leaving the code block open on GitHub.
+    [ -z "$(tail -c1 "$sql")" ] || echo
     echo '```'
     echo
     echo "</details>"
