@@ -7,12 +7,14 @@ create or replace temp table groups as
 
 -- Resolve each group's ids to BSB verses. The distinct stops a verse stored as
 -- several records (superscriptions, versification splits) counting more than once
--- per group.
+-- per group. The citing side is resolved too, so a split citing verse counts once.
 create or replace temp table citations as
 (select distinct g.citing_id, g.anchor_sort, g.pos,
         v.book_id, v.bsb_ch, v.bsb_vs,
+        cv.book_id citing_book, cv.bsb_ch citing_ch, cv.bsb_vs citing_vs,
  from (select citing_id, anchor_sort, pos, unnest(grp) cited_id from groups) g
- inner join '../json/bible_verses.json' v on v.id = g.cited_id);
+ inner join '../json/bible_verses.json' v on v.id = g.cited_id
+ inner join '../json/bible_verses.json' cv on cv.id = g.citing_id);
 
 create or replace temp table verse_text as
 (select book_id, bsb_ch, bsb_vs,
@@ -22,7 +24,7 @@ create or replace temp table verse_text as
 
 with prel as (select c.book_id, b.name_eng book, c.bsb_ch chapter, c.bsb_vs verse,
                      count(*) citations,
-                     count(distinct c.citing_id) citing_verses,
+                     count(distinct (c.citing_book, c.citing_ch, c.citing_vs)) citing_verses,
                      t."text",
               from citations c
               inner join '../json/bible_books.json' b on b.id = c.book_id
