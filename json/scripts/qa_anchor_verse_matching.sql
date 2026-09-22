@@ -1,6 +1,6 @@
-CREATE OR REPLACE TEMP TABLE books  AS SELECT * FROM read_json('bible_books.json');
-CREATE OR REPLACE TEMP TABLE verses AS SELECT * FROM read_json('bible_verses.json');
-CREATE OR REPLACE TEMP TABLE xrefs  AS SELECT * FROM read_json('cross_references.json');
+CREATE OR REPLACE TEMP TABLE books  AS SELECT * FROM read_json('../bible_books.json');
+CREATE OR REPLACE TEMP TABLE verses AS SELECT * FROM read_json('../bible_verses.json');
+CREATE OR REPLACE TEMP TABLE xrefs  AS SELECT * FROM read_json('../cross_references.json');
 
 CREATE OR REPLACE MACRO squash(s) AS
   ' ' || trim(regexp_replace(s, '[^\p{L}\p{N}'']+', ' ', 'g')) || ' ';

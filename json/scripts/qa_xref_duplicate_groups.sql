@@ -1,9 +1,9 @@
 -- Check 15b: the same reference group listed more than once under one anchor.
 -- Run with the three JSON files in the current directory.
 
-CREATE OR REPLACE VIEW books  AS SELECT * FROM read_json('bible_books.json');
-CREATE OR REPLACE VIEW verses AS SELECT * FROM read_json('bible_verses.json');
-CREATE OR REPLACE VIEW xrefs  AS SELECT * FROM read_json('cross_references.json');
+CREATE OR REPLACE VIEW books  AS SELECT * FROM read_json('../bible_books.json');
+CREATE OR REPLACE VIEW verses AS SELECT * FROM read_json('../bible_verses.json');
+CREATE OR REPLACE VIEW xrefs  AS SELECT * FROM read_json('../cross_references.json');
 
 -- verse id -> "Gen 1:1"
 CREATE OR REPLACE VIEW vlbl AS
