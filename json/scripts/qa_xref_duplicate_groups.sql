@@ -1,5 +1,5 @@
 -- Check 15b: the same reference group listed more than once under one anchor.
--- Run with the three JSON files in the current directory.
+-- Run from json/scripts; it reads the three JSON files in json/.
 
 CREATE OR REPLACE VIEW books  AS SELECT * FROM read_json('../bible_books.json');
 CREATE OR REPLACE VIEW verses AS SELECT * FROM read_json('../bible_verses.json');

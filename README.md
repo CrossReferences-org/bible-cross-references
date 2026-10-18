@@ -6,19 +6,39 @@ This dataset is derived from the Treasury of Scripture Knowledge (originally anc
 
 If you want to explore the data _interactively_, check out the [Bible Reader](https://crossreferences.org/read/19/23/BSB/) (code is [here](https://github.com/CrossReferences-org/reader-template)).
 
-## Status
-Complete and in active use across all four translations. Refinement is ongoing and released in rolling updates. [See Report](general_report.md) for details.
+## Phrase-Level References
+References are attached to the words they explain, usually a word or short phrase, sometimes the whole verse, as in the Treasury of Scripture Knowledge. When a verse holds several ideas, this shows the reader why each passage is cited, and lets them follow one thread at a time.
+
+Job 1:21 has four anchor phrases. Below are its references as one list for the verse, and then grouped by phrase.
+
+#### Job 1:21
+> saying: “**Naked I came**<sup>1</sup> from my mother’s womb, and naked I will return. **The LORD gave**<sup>2</sup>, and **the LORD has taken away**<sup>3</sup>. **Blessed be the name of the LORD**<sup>4</sup>.”
+
+**As one list for the verse** (27 references):
+
+Gen 3:19 · Gen 30:2 · Gen 45:5 · 1 Sam 3:18 · 2 Sam 16:12 · 1 Kgs 12:15 · 2 Kgs 20:19 · Job 1:11 · Job 2:10 · Ps 34:1 · Ps 39:9 · Ps 49:17 · Ps 89:38-52 · Eccl 5:15 · Eccl 5:19 · Eccl 12:7 · Isa 24:15 · Isa 42:24 · Isa 45:7 · Lam 3:38 · Amos 3:6 · Matt 20:15 · Acts 4:28 · Eph 5:20 · 1 Thess 5:18 · 1 Tim 6:7 · Jas 1:17
+
+**Anchored to phrases:**
+
+|  | Phrase | References |
+|---|---|---|
+| 1 | Naked I came | Gen 3:19 · Ps 49:17 · Eccl 5:15 · Eccl 12:7 · 1 Tim 6:7 |
+| 2 | The LORD gave | Job 2:10 · Gen 30:2 · Eccl 5:19 · Lam 3:38 · Jas 1:17 |
+| 3 | the LORD has taken away | Gen 45:5 · 2 Sam 16:12 · 1 Kgs 12:15 · Ps 39:9 · Isa 42:24 · Isa 45:7 · Amos 3:6 · Matt 20:15 · Acts 4:28 |
+| 4 | Blessed be the name of the LORD | Job 1:11 · 1 Sam 3:18 · 2 Kgs 20:19 · Ps 34:1 · Ps 89:38-52 · Isa 24:15 · Eph 5:20 · 1 Thess 5:18 |
 
 ## On Curation
 The reference set is not a verbatim copy of TSK. References are added, split, merged, or removed where doing so serves the reader. Such changes are deliberate and conservative (currently well under 1% of the set) and are expected to grow modestly as the project matures.  
 
 The aim is to improve the connections themselves, not to pile more references onto every verse. References are removed when they make more sense in the other direction, or when they depend on KJV phrasing that doesn't carry into other translations. A shorter, sounder list serves the reader better — and following the references onward, from verse to verse, recovers the wider picture when it is wanted. Have a look at [this experiment](https://crossreferences.org/sandbox/connection-explorer) to see what becomes possible.
 
+Refinements are released in rolling updates; [the report](general_report.md) tracks anchor quality across translations.
+
 ## Format
 
 ### JSON
 
-The json folder includes everything you need to get started with you own app or research.
+The json folder includes everything you need to get started with your own app or research.
 #### bible_books.json
 ```json
 {
@@ -90,7 +110,7 @@ Gen	1	1	beginning	Prov 8:22-24|Prov 16:4|Mark 13:19|John 1:1-3|Heb 1:10|1 John 1
 Example (`tsv/crossreferences_s21.tsv`):
 
 ```
-Gn	1	1	commencement	Pr 8:22-24|Pr 16:4|Mc 13:19|Jn 1:1-3|Hé 1:10|1 Jn 1:1
+Gn	1	1	commencement	Pr 8:22-24|Pr 16:4|Mc 13:19|Jn 1:1-3|He 1:10|1 Jn 1:1
 ```
 
 ### SQL
