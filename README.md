@@ -9,14 +9,13 @@ If you want to explore the data _interactively_, check out the [Bible Reader](ht
 ## Phrase-Level References
 References are attached to the words they explain, usually a word or short phrase, sometimes the whole verse, as in the Treasury of Scripture Knowledge. When a verse holds several ideas, this shows the reader why each passage is cited, and lets them follow one thread at a time.
 
-Job 1:21 has four anchor phrases. Below are its references as one list for the verse, and then grouped by phrase.
+**Job 1:21** has four anchor phrases. Below are its references as one list for the verse, and then grouped by phrase.
 
-#### Job 1:21
 > saying: “**Naked I came**<sup>1</sup> from my mother’s womb, and naked I will return. **The LORD gave**<sup>2</sup>, and **the LORD has taken away**<sup>3</sup>. **Blessed be the name of the LORD**<sup>4</sup>.”
 
 **As one list for the verse** (27 references):
 
-Gen 3:19 · Gen 30:2 · Gen 45:5 · 1 Sam 3:18 · 2 Sam 16:12 · 1 Kgs 12:15 · 2 Kgs 20:19 · Job 1:11 · Job 2:10 · Ps 34:1 · Ps 39:9 · Ps 49:17 · Ps 89:38-52 · Eccl 5:15 · Eccl 5:19 · Eccl 12:7 · Isa 24:15 · Isa 42:24 · Isa 45:7 · Lam 3:38 · Amos 3:6 · Matt 20:15 · Acts 4:28 · Eph 5:20 · 1 Thess 5:18 · 1 Tim 6:7 · Jas 1:17
+> Gen 3:19 · Gen 30:2 · Gen 45:5 · 1 Sam 3:18 · 2 Sam 16:12 · 1 Kgs 12:15 · 2 Kgs 20:19 · Job 1:11 · Job 2:10 · Ps 34:1 · Ps 39:9 · Ps 49:17 · Ps 89:38-52 · Eccl 5:15 · Eccl 5:19 · Eccl 12:7 · Isa 24:15 · Isa 42:24 · Isa 45:7 · Lam 3:38 · Amos 3:6 · Matt 20:15 · Acts 4:28 · Eph 5:20 · 1 Thess 5:18 · 1 Tim 6:7 · Jas 1:17
 
 **Anchored to phrases:**
 
