@@ -26,6 +26,8 @@ References are attached to the words they explain, usually a word or short phras
 | 3 | the LORD has taken away | Gen 45:5 · 2 Sam 16:12 · 1 Kgs 12:15 · Ps 39:9 · Isa 42:24 · Isa 45:7 · Amos 3:6 · Matt 20:15 · Acts 4:28 |
 | 4 | Blessed be the name of the LORD | Job 1:11 · 1 Sam 3:18 · 2 Kgs 20:19 · Ps 34:1 · Ps 89:38-52 · Isa 24:15 · Eph 5:20 · 1 Thess 5:18 |
 
+For a reader, the grouping is what makes a long list usable: you can follow the thread you care about and leave the rest. The Treasury of Scripture Knowledge kept that grouping, but tied it to KJV wording. Carrying it into other translations meant finding each anchor phrase in each translation's own text, which is part of the main work behind this dataset.
+
 ## On Curation
 The reference set is not a verbatim copy of TSK. References are added, split, merged, or removed where doing so serves the reader. Such changes are deliberate and conservative (currently well under 1% of the set) and are expected to grow modestly as the project matures.  
 
