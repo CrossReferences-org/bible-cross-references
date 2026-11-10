@@ -1,4 +1,4 @@
-Report Generated on: 2026-11-06 21:57
+Report Generated on: 2026-11-10 18:59
 
 ## Empty Anchors:
 - S21:     192  ( 0.302% )  
@@ -6,7 +6,7 @@ Report Generated on: 2026-11-06 21:57
 - BSB:     403  ( 0.633% )  
 
 ## Anchors that do not match the verse exactly (Whole Word):  
-- S21:      19  ( 0.030% )  
+- S21:      15  ( 0.024% )  
 - AOV:       0  ( 0.000% )  
 - BSB:       4  ( 0.006% )  
 - KJV:    1904  ( 2.991% )  
