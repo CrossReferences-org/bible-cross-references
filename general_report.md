@@ -1,4 +1,4 @@
-Report Generated on: 2026-11-14 21:52
+Report Generated on: 2026-11-15 00:07
 
 ## Empty Anchors:
 - S21:     192  ( 0.302% )  
@@ -9,11 +9,11 @@ Report Generated on: 2026-11-14 21:52
 - S21:      15  ( 0.024% )  
 - AOV:       0  ( 0.000% )  
 - BSB:       4  ( 0.006% )  
-- KJV:    1904  ( 2.991% )  
+- KJV:    1903  ( 2.989% )  
 
 ## Verses with an anchor appearing more than once:  
 - S21:     936  ( 1.470% )  
-- AOV:    1091  ( 1.714% )  
+- AOV:    1090  ( 1.712% )  
 - BSB:     882  ( 1.385% )  
 
 ## Verses with overlapping anchors:  
