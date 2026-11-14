@@ -100,7 +100,7 @@ done
   echo "Each query reads the JSON in \`../json\`. To run one yourself:"
   echo
   echo '```sh'
-  echo "cd queries && duckdb < chapters_with_most_passages_referenced.sql"
+  echo "duckdb < chapters_with_most_passages_referenced.sql"
   echo '```'
   echo
   # A one-entry contents list is just the heading again, so skip it.
