@@ -205,6 +205,7 @@
 	{"verse_id":1010,"sort":2,"kjv":"the harp","bsb":"harp and flute","aov":"siters en fluite","s21":"la harpe","refs":[[9010],[133730],[178250],[225290]]},
 	{"verse_id":1020,"sort":1,"kjv":"brass","bsb":"bronze and iron","aov":"koper","s21":"bronze","refs":[[21990],[46870],[51470],[58360],[112230]]},
 	{"verse_id":1030,"sort":1,"kjv":"hear","bsb":"hear my voice","aov":"hoor na my stem","s21":"écoutez-moi","refs":[[44350],[67620]]},
+	{"verse_id":1030,"sort":1,"kjv":"slain a man to my wounding","bsb":"slain a man for wounding me","aov":"slaan ’n man dood wat my wond","s21":"tué un homme pour ma blessure","refs":[[14800]]},
 	{"verse_id":1040,"sort":1,"kjv":"seventy","bsb":"seventy-sevenfold","aov":"sewen-en-sewentig","s21":"77 fois","refs":[[238230]]},
 	{"verse_id":1050,"sort":1,"kjv":"Seth","bsb":"Seth","aov":"hom Set genoem","s21":"Seth","refs":[[1090,1100],[102570],[251370]]},
 	{"verse_id":1050,"sort":2,"kjv":"For","bsb":"saying","aov":"Want","s21":"car","refs":[[810,820,830,880,900,910]]},
