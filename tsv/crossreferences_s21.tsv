@@ -4358,7 +4358,7 @@ Ex	38	9	parvis	Ex 27:9-19|Ex 40:8,33|1 Rs 6:36|Ps 84:3,11|Ps 89:8|Ps 92:14|Ps 10
 Ex	38	14	toiles	Ex 27:14
 Ex	38	18	broderie	2 Ch 3:14
 Ex	38	20	pieux	Ex 27:19|2 Ch 3:9|Esd 9:8|Ec 12:11|Es 22:23|Es 33:20|Ep 2:21-22|Col 2:19
-Ex	38	21	tabernacle du témoignage	Ex 25:16|Ex 26:33|Ex 40:3|Nb 1:50,53|Nb 9:15|Nb 10:11|Nb 17:22-23|Nb 18:2|2 Ch 24:6|Ac 7:44|Ap 11:19|Nb 24:5|Mt 17:4|Jb 11:4|Jb 22:23|Jb 26:1|He 9:2-3|He 8:2|He 9:11|Ps 15:1|2 Co 5:1|2 Pi 1:13|Ap 21:3
+Ex	38	21	tabernacle du témoignage	Ex 25:16|Ex 26:33|Ex 40:3|Nb 1:50,53|Nb 9:15|Nb 10:11|Nb 17:22-23|Nb 18:2|2 Ch 24:6|Ac 7:44|Ap 11:19|Nb 24:5|Mt 17:4|Jb 11:4|Jb 22:23|Ex 26:1|He 9:2-3|He 8:2|He 9:11|Ps 15:1|2 Co 5:1|2 Pi 1:13|Ap 21:3
 Ex	38	21	sous la direction	Nb 4:28-33|Esd 8:26-30
 Ex	38	21	Ithamar	Ex 6:23|1 Ch 5:29
 Ex	38	22	Betsaleel	Ex 31:1-5|Ex 35:30-35|Ex 36:1-3
@@ -7615,7 +7615,9 @@ Dt	5	26	l'homme	Gn 6:12|Es 40:6|Rm 3:20
 Dt	5	26	Dieu vivant	Jos 3:10|Ps 42:3|Ps 84:3|Jr 10:10|Dn 6:27|Mt 26:63|Ac 14:15|2 Co 6:16|1 Th 1:9
 Dt	5	27	Que ce soit toi qui t'approches	Ex 20:19|He 12:19
 Dt	5	28	Tout ce qu'ils ont dit est bien	Dt 18:17|Nb 27:7|Nb 36:5
-Dt	5	29	Si seulement ils avaient	Dt 32:29-30|Ps 81:14-16|Es 48:18|Jr 44:4|Ez 33:31-32|Mt 23:37|Lc 19:42|2 Co 5:20|2 Co 6:1|He 12:25|He 11:1|Ps 106:3|Ps 119:1-5|Lc 11:28|Jn 15:14|Ap 22:14|Ap 22:16|Ap 6:3|Ap 19:13|Ap 22:7|Rt 3:1|Ps 19:12|Es 3:10|Jr 22:14-15|Ep 6:3|Jc 1:25
+Dt	5	29	Si seulement ils avaient	Dt 32:29-30|Ps 81:14-16|Es 48:18|Jr 44:4|Ez 33:31-32|Mt 23:37|Lc 19:42|2 Co 5:20|2 Co 6:1|He 12:25
+Dt	5	29	respecter tous mes commandements	Dt 11:1|Ps 106:3|Ps 119:1-5|Lc 11:28|Jn 15:14|Ap 22:14
+Dt	5	29	afin d'être toujours heureux	Dt 5:16|Dt 4:40|Dt 6:3,18|Dt 12:25,28|Dt 19:13|Dt 22:7|Ps 19:12|Es 3:10|Jr 22:13-17|Ep 6:3|Jc 1:25
 Dt	5	31	je te dirai tous les commandements	Dt 5:1|Dt 4:1,5,45|Dt 6:1|Dt 11:1|Dt 12:1|Ez 20:11|Ml 3:22|Ga 3:19
 Dt	5	32	veillerez à vous conformer	Dt 6:3,25|Dt 8:1|Dt 11:32|Dt 24:8|2 Rs 21:8|Ez 37:24
 Dt	5	32	ne vous en écarterez ni à droite ni à gauche	Dt 4:1-2|Dt 13:1|Dt 17:20|Dt 28:14|Jos 1:7|Jos 23:6|Ps 125:5|Pr 4:27|2 Pi 2:21
@@ -13416,7 +13418,8 @@ Rt	4	22	David	1 Ch 2:15|Mt 1:6|Lc 3:31
 2 Sam	16	1	deux ânes	2 Sam 17:27-29|2 Sam 19:33|1 Sam 17:17-18|1 Sam 25:18|1 Ch 12:41|Pr 18:16|Pr 29:4-5
 2 Sam	16	1	fruits d'été	Jr 40:10,12|Am 8:1|Mi 7:1
 2 Sam	16	1	outre de vin	1 Sam 10:3|1 Sam 16:20
-2 Sam	16	2	Que veux-tu faire	Gn 21:29|Gn 33:8|Ez 37:18|Ez 15:1|Jg 5:10|Jg 10:4
+2 Sam	16	2	Que veux-tu faire	Gn 21:29|Gn 33:8|Ez 37:18
+2 Sam	16	2	Les ânes	2 Sam 15:1|2 Sam 19:27|Jg 5:10|Jg 10:4
 2 Sam	16	2	jeunes gens	1 Sam 25:27
 2 Sam	16	2	désaltérer ceux qui seront fatigués	2 Sam 15:23|2 Sam 17:29|Jg 8:4-5|1 Sam 14:28|Pr 31:6-7
 2 Sam	16	3	Où est	2 Sam 9:9-10|Ps 88:19|Mi 7:5
@@ -27564,7 +27567,8 @@ Ps	88	10	tends les mains	Ps 44:21|Ps 68:32|Ps 143:6|Ez 17:11|Jb 11:13
 Ps	88	11	pour les morts que tu fais des miracles	Ps 6:6|Ps 30:10|Ps 115:17|Ps 118:17|Es 38:18-19|Mc 5:35-36
 Ps	88	11	défunts se lèvent-ils pour te louer	Jb 14:7-12|Es 26:19|Ez 37:1-14|Lc 7:12-16|1 Co 15:52-57
 Ps	88	12	gouffre de perdition	Ps 55:24|Ps 73:18|Jb 21:30|Jb 26:6|Pr 15:11|Mt 7:13|Rm 9:22|2 Pi 2:1
-Ps	88	13	ténèbres	Ps 143:3|Jb 10:21-22|Es 8:22|Mt 8:12|Jude 1:13|Jude 1:5|Ec 2:16|Ec 8:10|Ec 9:5
+Ps	88	13	ténèbres	Ps 143:3|Jb 10:21-22|Es 8:22|Mt 8:12|Jude 1:13
+Ps	88	13	au pays de l'oubli	Ps 88:6|Ps 31:13|Ec 2:16|Ec 8:10|Ec 9:5
 Ps	88	14	Le matin	Ps 5:4|Ps 119:147-148|Mc 1:35
 Ps	88	15	me rejettes-tu	Ps 43:2|Ps 77:8-10|Mt 27:46
 Ps	88	15	caches-tu ton visage	Ps 13:1-2|Ps 44:25|Ps 69:18|Jb 13:24
@@ -27579,7 +27583,8 @@ Ps	89	2	Je chanterai	Ps 86:12-13|Ps 101:1|Ps 106:1|Ps 136:1-26
 Ps	89	2	ma bouche	Ps 40:10-11|Ps 71:8,15-19
 Ps	89	2	ta fidélité	Ps 89:6,9,34,50|Ps 36:6|Ps 92:3|Es 25:1|Lm 3:23|Mi 7:20|Tt 1:2
 Ps	89	2	génération en génération	Ps 89:5|Ps 119:90
-Ps	89	3	bonté	Ps 36:6|Ps 103:17|Ne 1:5|Ne 9:17,31|Lc 1:50|Ep 1:6-7|Ep 1:5|Nb 23:19|Mt 24:35|He 6:18
+Ps	89	3	bonté	Ps 36:6|Ps 103:17|Ne 1:5|Ne 9:17,31|Lc 1:50|Ep 1:6-7
+Ps	89	3	ta fidélité	Ps 89:6,38|Ps 119:89|Ps 146:6|Nb 23:19|Mt 24:35|He 6:18
 Ps	89	4	fait alliance	Ps 89:29,35,40|2 Sam 7:10-16|2 Sam 23:5|1 Rs 8:16|Es 55:3|Jr 30:9|Jr 33:20-21|Ez 34:23-24|Os 3:5|Lc 1:32-33
 Ps	89	4	celui que j'ai choisi	Ps 89:20|Ps 78:70|Es 42:1|Mt 3:17|Mt 12:18-21
 Ps	89	4	serment	Ps 89:36|Ps 132:11|2 Sam 3:9|Ac 2:30|He 7:21
@@ -29273,7 +29278,8 @@ Ps	135	5	je sais	Ps 48:1-2|Ps 86:8-10|Ps 89:7|Ps 95:3|Ps 96:4-5|Ps 97:9|Dt 10:17
 Ps	135	6	Tout ce que l'Eternel veut, il le fait	Ps 33:9,11|Ps 115:3|Es 46:10|Dn 4:32|Am 4:13|Am 9:6|Mt 28:18
 Ps	135	6	dans les mers	Ps 136:13-15|Mt 8:26-27|Mt 14:25
 Ps	135	7	fait monter les nuages	Ps 148:8|Gn 2:5-6|1 Rs 18:1,41-45|Jb 5:10|Jr 10:13|Jr 14:22|Jr 51:16|Za 10:1
-Ps	135	7	produit les éclairs	Jb 28:25-26|Jb 38:24-28|Jb 38:22-23|Jon 1:4|Jn 3:8
+Ps	135	7	produit les éclairs	Jb 28:25-26|Jb 38:24-28
+Ps	135	7	il tire le vent de ses trésors	Ps 107:25|Ps 148:8|Jb 38:22-23|Jon 1:4|Jn 3:8
 Ps	135	8	frappé les premiers-nés	Ps 78:51|Ps 105:36|Ps 136:10|Ex 12:12,29-30|Ex 13:15
 Ps	135	9	signes et des miracles	Ps 78:43-50|Ps 105:27-29|Ex 7:1-15|Dt 4:34|Ne 9:10|Es 51:9-10|Jr 32:20-21|Ac 7:36
 Ps	135	9	contre le pharaon	Ps 136:15
@@ -30403,7 +30409,8 @@ Pr	14	34	justice	Dt 4:6-8|Dt 28:1-14|Jg 2:6-14|Jr 2:2-25|Os 13:1
 Pr	14	34	péché	Dt 28:15-68|Dt 29:17-27|Ps 107:34|Ez 16:1-63|Ez 22:1-23
 Pr	14	35	roi	Pr 19:12-13|Pr 20:8,26|Pr 22:11|Pr 25:5|Pr 29:12|Ps 101:4-8|Mt 24:45-51|Lc 12:42-48
 Pr	14	35	celui	Pr 10:5|Pr 17:2|Pr 19:26
-Pr	15	1	réponse douce	Pr 25:15|Jg 8:1-3|1 Sam 25:21-33|1 Sam 25:18|1 Sam 10:12|1 Sam 28:25|Jg 12:3-6|1 Sam 25:10-11,21-22|2 Sam 19:44|1 Rs 12:13-16
+Pr	15	1	réponse douce	Pr 25:15|Jg 8:1-3|1 Sam 25:21-33
+Pr	15	1	une parole dure	Pr 15:18|Pr 10:12|Pr 28:25|Pr 29:22|Jg 12:3-6|1 Sam 25:10-11,21-22|2 Sam 19:44|1 Rs 12:13-16
 Pr	15	2	langue des sages	Pr 15:23,28|Pr 12:23|Pr 13:16|Pr 16:23|Pr 25:11-12|Ps 45:1-2|Ec 10:12-13|Es 50:4
 Pr	15	2	déverse la folie	Ps 59:8
 Pr	15	3	Les yeux de l'Eternel sont partout	Pr 5:21|2 Ch 16:9|Jb 34:21-22|Jr 16:17|Jr 23:24|Jr 32:19|He 4:13
@@ -32634,7 +32641,8 @@ Es	10	13	supprimé les frontières	2 Rs 15:29|2 Rs 17:6,24|2 Rs 18:11,32|1 Ch 5:
 Es	10	13	pillé	2 Rs 16:8|2 Rs 18:15|Os 13:15; Os 14:1
 Es	10	14	main basse sur les richesses	Es 5:8|Jb 31:25|Pr 18:12|Pr 21:6-7|Os 12:8-9|Na 2:10-14|Na 3:1|Ha 2:5-11
 Es	10	15	hache	Es 10:5|Ps 17:13-14|Jr 51:20-23|Ez 28:9|Rm 9:20-21
-Es	10	16	le maître de l'univers	Es 5:17|Es 14:24-27|Es 29:5-8|Es 37:6-7,29,36|2 Ch 32:21|Ps 106:15|Ac 12:23|Ac 9:5
+Es	10	16	le maître de l'univers	Es 5:17|Es 14:24-27|Es 29:5-8|Es 37:6-7,29,36|2 Ch 32:21|Ps 106:15|Ac 12:23
+Es	10	16	parmi ses dignitaires	Es 9:4|Es 30:30-33|Es 33:10-14
 Es	10	17	lumière d'Israël	Es 60:19|Ps 27:1|Ps 84:12|Ap 21:23|Ap 22:5
 Es	10	17	flamme	Es 30:27-28|Es 33:14|Es 63:19; Es 64:1|Es 66:15-16,24|Nb 11:1-3|Nb 16:35|Ps 18:9|Ps 21:10|Ps 50:3|Ps 83:15-16|Jr 4:4|Jr 7:20|Ml 3:19-21|Mt 3:12|2 Th 1:7-9|He 12:29
 Es	10	17	dévastera	Es 27:4|Es 37:36|Ps 97:3|Na 1:5-6,10
@@ -33318,7 +33326,8 @@ Es	26	18	éprouvé des douleurs	Es 37:3|2 Rs 19:3|Os 13:13
 Es	26	18	n'avons pas contribué au salut	Ex 5:22-23|Jos 7:7-9|1 Sam 11:13|1 Sam 14:45
 Es	26	18	habitants du monde ne sont pas venus à la vie	Ps 17:14|Jn 7:7|1 Jn 5:19
 Es	26	19	tes morts reviennent à la vie	Es 25:8|Ez 37:1-14|Os 6:2|Os 13:14|Jn 5:28-29|Ac 24:15|1 Co 15:22-23|1 Th 4:14-15|Ap 20:5-6,12
-Es	26	19	mes cadavres se relèvent	Mt 27:52,58|Jn 11:25-26|1 Co 15:20,23|Ph 3:10,21|Ps 22:16|Ps 71:20|Dn 12:2|Ep 5:14|Ap 11:8-11
+Es	26	19	mes cadavres se relèvent	Mt 27:52,58|Jn 11:25-26|1 Co 15:20,23|Ph 3:10,21
+Es	26	19	Réveillez-vous et exprimez votre joie	Es 51:17|Es 52:1-2|Es 60:1-2|Ps 22:16|Ps 71:20|Dn 12:2|Ep 5:14|Ap 11:8-11
 Es	26	19	ta rosée est une rosée vivifiante	Gn 2:5-6|Dt 32:2|Dt 33:13,28|Jb 29:19|Ps 110:3|Os 14:6|Za 8:12
 Es	26	19	la terre redonnera le jour aux défunts	Ap 20:13
 Es	26	20	mon peuple	Es 51:4,16|Jr 7:23|Jr 31:14
@@ -34316,7 +34325,9 @@ Es	45	12	corps célestes	Gn 2:1|Ne 9:6
 Es	45	13	appelé Cyrus	Es 45:1-6|Es 41:2,25|Es 46:11|Es 48:14-15
 Es	45	13	toute justice	Es 42:6|Ps 65:6
 Es	45	13	ferai toutes ses voies bien droites	Es 45:1-2
-Es	45	13	reconstruira ma ville	Es 44:28|Es 52:5|2 Ch 36:22-23|Esd 1:3-11|Rm 3:24-26|1 Pi 1:18-19
+Es	45	13	reconstruira ma ville	Es 44:28|Es 52:5|2 Ch 36:22-23|Esd 1:3-11
+Es	45	13	laissera partir mes exilés	Es 49:25|Es 52:2-3|Rm 3:24-26|1 Pi 1:18-19
+Es	45	13	sans paiement ni cadeau	Es 13:17
 Es	45	14	biens de l'Egypte	Es 18:7|Es 19:23-25|Es 23:18|Es 49:23|Es 60:5-16|Es 61:5-6|Es 66:19-20|Ps 68:31-32|Ps 72:10-15|Za 8:22-23
 Es	45	14	Sabéens	Jb 1:15|Ez 23:42|Jl 4:8
 Es	45	14	hommes de grande taille	Es 10:33|Nb 13:32|2 Sam 21:20|Ez 31:3
@@ -42418,7 +42429,8 @@ Os	4	6	Mon peuple	Os 4:12|Es 1:3|Es 3:12|Es 5:13|Jr 4:22|Jr 8:7
 Os	4	6	manque la connaissance	Os 4:1|Os 6:6|2 Ch 15:3|Jb 36:12|Pr 19:2|Es 27:11|Es 45:20|Jr 5:3-4,21|Mt 15:14|2 Co 4:3-6
 Os	4	6	rejeté la connaissance	1 Sam 2:12|Pr 1:30-32|Es 28:7|Es 56:10-12|Jr 2:8|Jr 8:8-9|Ml 2:7-8|Mt 23:16-26
 Os	4	6	je te rejetterai	Za 11:8-9,15-17|Ml 2:1-3,9|Mt 21:41-45|Mc 12:8-9|Lc 20:16-18
-Os	4	6	oublié la loi	Os 8:14|Os 13:6|2 Rs 17:16-20|Ps 119:61,139|Es 17:10|Mt 15:3-6|Mt 15:8|Mt 1:6|1 Sam 2:28-36|1 Sam 3:12-15
+Os	4	6	oublié la loi	Os 8:14|Os 13:6|2 Rs 17:16-20|Ps 119:61,139|Es 17:10|Mt 15:3-6|Mt 15:8
+Os	4	6	j'oublierai aussi tes enfants	Os 1:6|1 Sam 2:28-36|1 Sam 3:12-15
 Os	4	7	multipliés	Os 4:10|Os 5:1|Os 6:9|Os 13:6,14|Esd 9:7
 Os	4	7	gloire en honte	1 Sam 2:30|Jr 2:26-27|Ml 2:9|Ph 3:19
 Os	4	8	nourrissent des péchés	Lv 6:19|Lv 7:6-7
@@ -43195,7 +43207,8 @@ Am	4	2	juré par sa sainteté	Am 6:8|Ps 89:36
 Am	4	2	enlèvera avec des crocs	Es 37:29|Jr 16:16|Ez 39:4-5|Ha 1:15-16
 Am	4	3	sortirez par les brèches	2 Rs 25:4|Ez 12:5,12
 Am	4	3	jetées dans la forteresse	2 Rs 7:7-8,15|Es 2:20|Es 31:7|So 1:18|Mt 16:26
-Am	4	4	Allez à Béthel et péchez	Am 3:14|Ec 11:9|Ez 20:39|Jl 4:9-12|Mt 23:32|Mt 26:45|Mc 14:41|Mc 5:5|Os 4:15|Os 9:15|Os 12:12
+Am	4	4	Allez à Béthel et péchez	Am 3:14|Ec 11:9|Ez 20:39|Jl 4:9-12|Mt 23:32|Mt 26:45|Mc 14:41
+Am	4	4	allez à Guilgal et péchez davantage	Am 5:5|Os 4:15|Os 9:15|Os 12:12
 Am	4	4	Offrez vos sacrifices	Nb 28:3-4
 Am	4	4	vos dîmes	Dt 14:28-29|Dt 26:12
 Am	4	5	sacrifices de reconnaissance avec du levain	Lv 7:12-13|Lv 23:17
@@ -49365,7 +49378,7 @@ Lc	8	49	ne dérange plus	Lc 7:6|Lc 11:7|Es 7:12|Mc 5:35
 Lc	8	50	crois seulement	Lc 8:48|Es 50:10|Mc 5:36|Mc 9:23|Mc 11:22-24|Jn 11:25,40|Rm 4:17,20
 Lc	8	51	ne laissa personne entrer	1 Rs 17:19-23|2 Rs 4:4-6,34-36|Es 42:2|Mt 6:5-6|Ac 9:40
 Lc	8	51	Pierre, Jean et Jacques	Lc 6:14|Lc 9:28|Mc 5:37-40|Mc 14:33
-Lc	8	52	pleuraient	Gn 23:2|Gn 27:34-35|2 Sam 19:1|Jr 9:16-20|Ex 24:17|Za 12:10
+Lc	8	52	pleuraient	Gn 23:2|Gn 27:34-35|2 Sam 19:1|Jr 9:16-20|Ez 24:17|Za 12:10
 Lc	8	52	dort	Mc 5:38-39|Jn 11:4,11-13
 Lc	8	53	se moquaient	Lc 16:14|Jb 12:4|Jb 17:2|Ps 22:8|Es 53:3
 Lc	8	53	sachant	Mc 15:44-45|Jn 11:39|Jn 19:33-35
