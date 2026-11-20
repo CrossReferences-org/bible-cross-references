@@ -148,6 +148,9 @@ with the verse, the anchor phrase, and why you think the reference is wrong.
 Note that the data files are _generated exports_, so pull requests against them
 can't be merged.
 
+## Starting Source
+The digital base is the TSK text published by JustVerses (`tskxref.txt` in their `tsk.zip`, dated 2011-06-28; SHA-256 `6741647c7ab23c3710d1f070a7413994d1059b64dc3e7fc13ebc50f281e35e54`). It served as the starting point: the TSK's chronological notes were left out because they are out of scope for this project, and entries that don't match the printed TSK are corrected against the print as they are found.
+
 ## About
 
-This data is maintained as part of [CrossReferences.org](https://crossreferences.org), a free Bible study tool. The Treasury of Scripture Knowledge is a remarkable work, and this project stands on it gratefully. The aim is to make it accessible across translations, languages, and devices, as well as to refine it where appropriate.
+This data is maintained as part of [CrossReferences.org](https://crossreferences.org). The Treasury of Scripture Knowledge is a remarkable work, and this project stands on it gratefully. The aim is to make it accessible across translations, languages, and devices, as well as to refine it where appropriate.
